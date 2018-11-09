@@ -26,5 +26,5 @@ Then we will show a map with different colors for different clusters or hotels i
 
 The map that we get is shown below. 
 
-![alt text](https://github.com/baderrasheed/Coursera_Capstone/blob/master/Capture1.PNG)
+![alt text](https://github.com/baderrasheed/Coursera_Capstone/blob/master/Capture1.PNG) 
 
