@@ -26,7 +26,5 @@ Then we will show a map with different colors for different clusters or hotels i
 
 The map that we get is shown below. 
 
-![alt text]()
+![alt text](https://github.com/baderrasheed/Coursera_Capstone/blob/master/Capture1.PNG)
 
-
-section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.
