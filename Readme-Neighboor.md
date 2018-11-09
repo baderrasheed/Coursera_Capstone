@@ -14,6 +14,19 @@ First we will find the latitude and longitude values for the two cities, we will
 
 # 3- Solution methodology
 
-First, we get the required data of the two cities from Foursquare, we use CLIENT_ID and CLIENT_SECRET, which we get from Foursquare. The data that we get will be as two json files, one for each city. Then we assign relevant part of JSON to venues and tranform venues into dataframes. Then we do some preprocessing for the cities dataframes to get the required columns. We will get 9 hotels in Aleppo and 3 hotels in Damascus. Then we will show the map that includes the hotels and the center of each city. The center location of the map will be the mean of the locations of the two cities.
+First, we get the required data of the two cities from Foursquare, we use CLIENT_ID and CLIENT_SECRET, which we get from Foursquare. The data that we get will be as two json files, one for each city. Then we assign relevant part of JSON to venues and tranform venues into dataframes. Then we do some preprocessing for the cities dataframes to get the required columns. We will get 9 hotels in Aleppo and 3 hotels in Damascus. Then we will show the map that includes the hotels and the center of each city. The center location of the map will be the mean of the locations of the two cities. 
+
+The map that we get is shown below. 
+
+![alt text](https://github.com/baderrasheed/Coursera_Capstone/blob/master/Capture.PNG) 
+
+Then we join the two dataframes in one dataframe. The city isn't shown in the dataframe.
+Then we will cluster the hotels into two clusters using KMeans. First we drop 'name' and 'categories' columns and keep just columns tgat help us to make clustering: name , lat, and lng. Obviosly the center of each cluster will be in one city different from the other. This will be just an experiment. In real life, there will be more than two cities, and there may be some hotels out of the cities. KMeans helps to solve these problems.
+Then we will show a map with different colors for different clusters or hotels in different clusters. 
+
+The map that we get is shown below. 
+
+![alt text]()
+
 
 section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, and what machine learnings were used and why.
